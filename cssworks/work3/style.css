@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.parent{
+    width: 100%;
+    background-color: black;
+    margin-left: 400px;
+}
+.section{
+    width: 100px;
+    height: 150px;
+    background-color: brown;
+    border: 1px solid bisque;
+    float: left;
+    margin-left: 10px;
+    
+
+    
+}
+.section:nth-child(1){
+    background-color:#212120;
+    
+}
+.section:nth-child(2){
+    background-color: #237024;
+}
+.section:nth-child(3){
+    background-color:#0fab11 ;
+    
+}
+.section:nth-child(4){
+    background-color: #0af70d;
+    
+}
+.section:nth-child(5){
+    background-color:white ;
+    
+}
+.parent1{
+    width: 100%;
+    background-color: black;
+    margin-left: 290px;
+    margin-top: 200px;
+}
+.child{
+    width: 100px;
+    height: 150px;
+    background-color: brown;
+    border: 1px solid bisque;
+    float: left;
+    margin-left: 10px;
+}
+.child:nth-child(1){
+    background-color:orangered
+    
+}
+.child:nth-child(2){
+    background-color:#e05a38
+}
+.child:nth-child(3){
+    background: color #b88072; ;
+    
+}
+.child:nth-child(4){
+    background-color:violet
+    
+}
+.child:nth-child(5){
+    background-color:darkmagenta ;
+}
+.child:nth-child(6){
+    background-color:darkorchid
+}
+.child:nth-child(7){
+    background-color:gray
+
+}
+.content{
+    width: 100%;
+    background-color: black;
+    margin-left: 185px;
+    margin-top: 380px;
+}
+.rows{
+    width: 100px;
+    height: 150px;
+    background-color: brown;
+    border: 1px solid bisque;
+    float: left;
+    margin-left: 10px;
+}
+.rows:nth-child(1){
+    background-color:darkcyan
+    
+}
+.rows:nth-child(2){
+    background-color:lightgreen
+}
+.rows:nth-child(3){
+    background-color:#f78234
+    
+}
+.rows:nth-child(4){
+    background-color:#fc1956
+    
+}
+.rows:nth-child(5){
+    background-color:darkred
+}
+.rows:nth-child(6){
+    background-color:#23b0e8
+}
+.rows:nth-child(7){
+    background-color:#13b057
+
+}
+.rows:nth-child(8){
+    background-color:#e319b4;
+
+}
+.rows:nth-child(9){
+    background-color: #730545;
+}
+

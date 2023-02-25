@@ -1,0 +1,37 @@
+
+
+.row{
+    background-color: skyblue;
+    border: 1px solid black;
+}
+.row1{
+    width:80%;
+    margin: auto;
+    height: 100px;
+    
+}
+.row2{
+    width:20%;
+    height: 100px;
+    margin-top: 50px;
+}
+.row3{
+    width: 20%;
+    height: 100px;
+    margin-top: 50px;
+}
+.row4{
+    width:80%;
+    margin: auto;
+    height: 100px;
+    margin-top: 50px;
+
+}
+@media (max-width:750px) {
+    .row{
+        width: 80%;
+        margin:auto;
+        margin-top: 5px;
+    }
+}    
+

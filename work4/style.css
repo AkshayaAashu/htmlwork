@@ -3,8 +3,8 @@ body{
 }
 
 .container{
-    width: 75%;
-    height:350px;
+    width: 65%;
+    height:100px;
     margin: auto;
     border: 1px solid black;
     
@@ -13,6 +13,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 600px;
+    
 
     
 }
@@ -25,13 +26,13 @@ body{
     background-color:white;
 }
 .row-body{
-    color: red;
     margin-left:50px;
 }
 
 .row-body h2{
     margin-top:50px;
     margin-left:20px;
+    color: red;
 }
 
 .row-body p{
@@ -83,8 +84,26 @@ img{
     line-height:35px;  
     margin-left: 35px;  
 }
-.row-end{
-    margin-top: 110px;
+.row-bottom{
+    display: flex;
+    margin-top: 60px;
+}
+.row-last{
+    margin-left: 80px;
+}
+.row-footer{
+    margin-left: 30px;
+}
+.row-footers{
+    margin-left: 80px;
+}
+ @media (max-width:750px){
+.row{
+    display: flex;
+    flex-direction: column;
 }
 
+    
+}
+    
 
